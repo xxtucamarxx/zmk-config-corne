@@ -79,20 +79,20 @@
 
         rbrc {
             bindings = <&kp BR_RIGHT_BRACE>;
-            key-positions = <32 31>;
+            key-positions = <33 34>;
             timeout-ms = <100>;
         };
 
         rbkt {
             bindings = <&kp BR_RIGHT_BRACKET>;
-            key-positions = <8 7>;
+            key-positions = <9 10>;
             timeout-ms = <100>;
             require-prior-idle-ms = <100>;
         };
 
         rpar {
             bindings = <&kp BR_RIGHT_PARENTHESIS>;
-            key-positions = <20 19>;
+            key-positions = <21 22>;
             timeout-ms = <100>;
             require-prior-idle-ms = <100>;
         };
