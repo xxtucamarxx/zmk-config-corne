@@ -123,7 +123,7 @@
             >;
         };
 
-        lower_layer {
+        num_layer {
             bindings = <
 &kp BR_PERCENT  &kp KP_MULTIPLY  &kp KP_DIVIDE  &kp KP_PLUS  &kp KP_MINUS  &kp KP_EQUAL    &trans  &trans  &trans  &trans  &none   &trans
 &kp BR_COMMA    &kp N0           &kp N1         &kp N2       &kp N3        &kp N4          &trans  &trans  &trans  &trans  &trans  &trans
@@ -132,7 +132,7 @@
             >;
         };
 
-        raise_layer {
+        symbol_layer {
             bindings = <
 &trans      &kp C_REWIND      &kp C_FF      &kp K_REDO           &kp K_UNDO    &trans             &trans       &trans     &trans       &trans         &trans        &trans
 &trans      &kp C_BRI_DN      &kp C_BRI_UP  &mt C_MUTE C_VOL_DN  &kp C_VOL_UP  &kp PRINTSCREEN    &kp BR_EXCL  &kp BR_AT  &kp BR_HASH  &kp BR_DOLLAR  &kp BR_PRCNT  &kp BR_AMPS
