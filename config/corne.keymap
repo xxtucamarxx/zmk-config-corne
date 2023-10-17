@@ -61,7 +61,7 @@
             label = "NUM_WORD";
             #binding-cells = <0>;
             layers = <1>;
-            continue-list = <BACKSPACE DELETE DOT COMMA>;
+            continue-list = <BACKSPACE DELETE DOT COMMA KP_EQUAL KP_MULTIPLY KP_PLUS KP_MINUS KP_DIVIDE PERCENT>;
             ignore-numbers;
         };
     };
