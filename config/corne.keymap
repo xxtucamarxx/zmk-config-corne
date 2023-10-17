@@ -56,11 +56,13 @@
             require-prior-idle-ms = <150>;
             hold-trigger-on-release;
         };
-        num_word: behavior_num_word {
-            compatible = "zmk,behavior-caps-word";
-            label = "NUM_WORD";
-            #binding-cells = <0>;
-            continue-list = <BACKSPACE COMMA DOT DELETE>;
+		num_word: behavior_num_word {
+			compatible = "zmk,behavior-caps-word";
+			label = "NUM_WORD";
+			#binding-cells = <0>;
+            layers = <1>;              
+			continue-list = <BACKSPACE DELETE DOT COMMA>;
+            ignore-numbers;  
         };
     };
 
