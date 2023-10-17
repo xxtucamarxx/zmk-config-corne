@@ -119,7 +119,7 @@
         default_colemak_layer {
             bindings = <
 &shift_caps  &kp Q            &kp W            &kp F         &kp P              &kp B          &kp J        &kp L               &kp U         &kp Y             &mt BR_SEMI BR_COLON       &mt BR_APOS BR_DOUBLE_QUOTES
-&kp BR_PIPE  &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G          &kp M        &hml RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI O           &mt BR_UNDER BR_MINUS
+&kp BR_PIPE  &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G          &kp M        &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI O           &mt BR_UNDER BR_MINUS
 &to 3        &kp Z            &kp X            &kp C         &kp D              &kp V          &kp K        &kp H               &kp BR_COMMA  &kp BR_DOT        &mt BR_BACKSLASH BR_SLASH  &num_word
                                                &kp TAB       &lt 2 ESC          &lt 3 SPACE    &lt 5 ENTER  &kp BACKSPACE       &kp DELETE
             >;
