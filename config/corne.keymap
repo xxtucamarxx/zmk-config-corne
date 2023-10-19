@@ -129,7 +129,7 @@
             bindings = <
 &kp BR_PERCENT  &kp KP_MULTIPLY  &kp KP_DIVIDE  &kp KP_PLUS  &kp KP_MINUS  &kp KP_EQUAL    &trans  &trans  &trans  &trans  &trans  &trans
 &kp BR_COMMA    &kp N0           &kp N1         &kp N2       &kp N3        &kp N4          &trans  &trans  &trans  &trans  &trans  &trans
-&kp BR_PERIOD   &kp N5           &kp N6         &kp N7       &kp N8        &kp N9          &trans  &trans  &trans  &trans  &trans  &to 4
+&kp BR_PERIOD   &kp N5           &kp N6         &kp N7       &kp N8        &kp N9          &trans  &trans  &trans  &trans  &to 4   &to 0
                                                 &trans       &trans        &trans          &trans  &trans  &trans
             >;
         };
