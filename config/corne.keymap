@@ -127,10 +127,10 @@
 
         num_layer {
             bindings = <
-&kp BR_PERCENT  &kp KP_MULTIPLY  &kp KP_DIVIDE  &kp KP_PLUS  &kp KP_MINUS  &kp KP_EQUAL    &trans  &trans  &trans  &trans  &trans  &trans
-&kp BR_COMMA    &kp N0           &kp N1         &kp N2       &kp N3        &kp N4          &trans  &trans  &trans  &trans  &trans  &trans
-&kp BR_PERIOD   &kp N5           &kp N6         &kp N7       &kp N8        &kp N9          &trans  &trans  &trans  &trans  &to 4   &to 0
-                                                &trans       &trans        &trans          &trans  &trans  &trans
+&kp BR_PERCENT  &mt F11 KP_MULTIPLY  &mt F12 KP_DIVIDE  &kp KP_PLUS  &kp KP_MINUS  &kp KP_EQUAL    &trans  &trans  &trans  &trans  &trans  &trans
+&kp BR_COMMA    &mt F10 N0           &mt F1 N1          &mt F2 N2    &mt F3 N3     &mt F4 N4       &trans  &trans  &trans  &trans  &trans  &trans
+&kp BR_PERIOD   &mt F5 N5            &mt F6 N6          &mt F7 N7    &mt F8 N8     &mt F9 N9       &trans  &trans  &trans  &trans  &to 4   &to 0
+                                                        &trans       &trans        &trans          &trans  &trans  &trans
             >;
         };
 
