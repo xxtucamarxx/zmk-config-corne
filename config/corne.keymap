@@ -128,9 +128,9 @@
 
         default_colemak_layer {
             bindings = <
-&shift_caps        &kp Q            &kp W            &kp F         &kp P              &kp B          &kp J        &kp L               &kp U         &kp Y             &mt BR_COLON BR_SEMI       &mt STAR SQT
-&mt EXCL PIPE      &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G          &kp M        &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI O           &mt BR_UNDER BR_MINUS
-&nav_smart_layers  &kp Z            &kp X            &kp C         &kp D              &kp V          &kp K        &kp H               &mt AT COMMA  &kp BR_DOT        &mt BR_BACKSLASH BR_SLASH  &num_word
+&shift_caps        &kp Q            &kp W            &kp F         &kp P              &kp B          &kp J        &kp L               &kp U         &kp Y             &mt DOLLAR BR_SEMI         &mt STAR SQT
+&mt EXCL PIPE      &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G          &kp M        &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI O           &mt AMPS BR_MINUS
+&nav_smart_layers  &kp Z            &kp X            &kp C         &kp D              &kp V          &kp K        &kp H               &mt AT COMMA  &mt HASH PERIOD   &mt BR_BACKSLASH BR_SLASH  &num_word
                                                      &kp ESC       &lt 2 DELETE       &lt 3 ENTER    &lt 5 SPACE  &kp BACKSPACE       &lt 1 TAB
             >;
         };
@@ -144,12 +144,12 @@
             >;
         };
 
-        symbol_layer {
+        media_layer {
             bindings = <
-&trans      &kp C_REWIND      &kp C_FF      &kp K_REDO           &kp K_UNDO    &trans             &trans       &trans     &trans       &trans         &trans        &trans
-&trans      &kp C_BRI_DN      &kp C_BRI_UP  &mt C_MUTE C_VOL_DN  &kp C_VOL_UP  &kp PRINTSCREEN    &kp BR_EXCL  &kp BR_AT  &kp BR_HASH  &kp BR_DOLLAR  &kp BR_PRCNT  &kp BR_AMPS
-&kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT    &kp K_PASTE          &kp K_COPY    &kp K_CUT          &trans       &trans     &trans       &trans         &trans        &trans
-                                            &trans               &trans        &trans             &trans       &trans     &trans
+&trans      &kp C_REWIND      &kp C_FF      &kp K_REDO           &kp K_UNDO    &trans             &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &kp C_BRI_DN      &kp C_BRI_UP  &mt C_MUTE C_VOL_DN  &kp C_VOL_UP  &kp PRINTSCREEN    &trans  &trans  &trans  &trans  &trans  &trans
+&kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT    &kp K_PASTE          &kp K_COPY    &kp K_CUT          &trans  &trans  &trans  &trans  &trans  &trans
+                                            &trans               &trans        &trans             &trans  &trans  &trans
             >;
         };
 
@@ -171,7 +171,7 @@
             >;
         };
 
-        accents_layer {
+        accent_layer {
             bindings = <
 &trans  &none  &none  &none             &none   &none     &none         &none         &none         &none         &none          &none
 &trans  &none  &none  &none             &none   &none     &kp BR_GRAVE  &kp BR_ACUTE  &kp BR_CARET  &kp BR_TILDE  &kp BR_UMLAUT  &none
