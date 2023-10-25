@@ -137,10 +137,10 @@
 
         num_layer {
             bindings = <
-&kp BR_PERCENT  &mt F11 STAR  &mt F12 SLASH  &kp PLUS   &kp MINUS  &kp EQUAL    &trans  &trans           &trans     &trans    &trans        &trans
-&kp BR_COMMA    &mt F10 N0    &mt F1 N1      &mt F2 N2  &mt F3 N3  &mt F4 N4    &trans  &kp RIGHT_SHIFT  &kp LCTRL  &kp LALT  &kp LEFT_GUI  &trans
-&kp BR_PERIOD   &mt F5 N5     &mt F6 N6      &mt F7 N7  &mt F8 N8  &mt F9 N9    &trans  &trans           &trans     &trans    &to 4         &to 0
-                                             &trans     &trans     &trans       &trans  &trans           &trans
+&kp BR_PERCENT  &kp ASTERISK  &kp N7  &kp N8  &kp N9  &kp MINUS    &trans  &trans           &trans     &trans    &trans        &trans
+&kp BR_COMMA    &kp SLASH     &kp N4  &kp N5  &kp N6  &kp PLUS     &to 7   &kp RIGHT_SHIFT  &kp LCTRL  &kp LALT  &kp LEFT_GUI  &trans
+&kp BR_PERIOD   &kp N0        &kt N1  &kp N2  &kt N3  &kp EQUAL    &trans  &trans           &trans     &trans    &to 4         &to 0
+                                      &trans  &trans  &trans       &trans  &trans           &trans
             >;
         };
 
@@ -186,6 +186,15 @@
 &kp J    &kp LSHFT  &kp A  &kp S     &kp D           &kp F        &kp N6        &kp N7        &kp N8      &kp N9       &kp N0       &kp PAGE_DOWN
 &kp M    &kp LCTRL  &kp Z  &kp X     &kp C           &kp V        &kp BR_MINUS  &kp BR_COMMA  &kp BR_DOT  &kp BR_SEMI  &kp BR_FSLH  &to 4
                            &kp LALT  &kp LEFT_SHIFT  &kp SPACE    &kp ENTER     &kp RALT      &kp ESC
+            >;
+        };
+
+        function_layer {
+            bindings = <
+&trans  &trans  &kp F7  &kp F8  &kp F9  &kp F10    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans     &trans  &trans  &trans
             >;
         };
     };
