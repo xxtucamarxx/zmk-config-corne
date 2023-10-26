@@ -137,10 +137,10 @@
 
         default_colemak_layer {
             bindings = <
-&shift_caps        &kp Q            &kp W            &kp F         &kp P              &kp B          &kp J        &kp L               &kp U         &kp Y             &mt BR_DOLLAR BR_SEMI         &mt BR_STAR BR_SQT
-&mt BR_EXCL BR_PIPE      &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G          &kp M        &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI O           &mt BR_AMPS BR_MINUS
-&nav_smart_layers  &kp Z            &kp X            &kp C         &kp D              &kp V          &kp K        &kp H               &mt BR_AT BR_COMMA  &mt BR_HASH BR_PERIOD   &mt BR_BACKSLASH BR_SLASH  &num_word
-                                                     &kp ESC       &lt 2 DELETE       &lt 3 ENTER    &lt 5 SPACE  &kp BACKSPACE       &lt 1 TAB
+&shift_caps          &kp Q            &kp W            &kp F         &kp P              &kp B          &kp J        &kp L               &kp U               &kp Y                  &mt BR_DOLLAR BR_SEMI      &mt BR_STAR BR_SQT
+&mt BR_EXCL BR_PIPE  &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G          &kp M        &hmr RIGHT_SHIFT N  &hmr RCTRL E        &hmr RIGHT_ALT I       &hmr RIGHT_GUI O           &mt BR_AMPS BR_MINUS
+&nav_smart_layers    &kp Z            &kp X            &kp C         &kp D              &kp V          &kp K        &kp H               &mt BR_AT BR_COMMA  &mt BR_HASH BR_PERIOD  &mt BR_BACKSLASH BR_SLASH  &num_word
+                                                       &kp ESC       &lt 2 DELETE       &lt 3 ENTER    &lt 5 SPACE  &kp BACKSPACE       &lt 1 TAB
             >;
         };
 
@@ -148,8 +148,8 @@
             bindings = <
 &kp BR_PERCENT  &kp BR_ASTERISK  &kp N7  &kp N8  &kp N9  &kp BR_MINUS    &trans       &trans           &trans     &trans    &trans        &trans
 &kp BR_COMMA    &kp BR_SLASH     &kp N4  &kp N5  &kp N6  &kp BR_PLUS     &smart_func  &kp RIGHT_SHIFT  &kp LCTRL  &kp LALT  &kp LEFT_GUI  &trans
-&kp BR_PERIOD   &kp N0        &kt N1  &kp N2  &kt N3  &kp BR_EQUAL    &trans       &trans           &trans     &trans    &to 4         &to 0
-                                      &trans  &trans  &trans       &trans       &trans           &trans
+&kp BR_PERIOD   &kp N0           &kt N1  &kp N2  &kt N3  &kp BR_EQUAL    &trans       &trans           &trans     &trans    &to 4         &to 0
+                                         &trans  &trans  &trans          &trans       &trans           &trans
             >;
         };
 
@@ -200,9 +200,9 @@
 
         function_layer {
             bindings = <
-&trans  &trans  &kp F7  &kp F8  &kp F9  &kp F10    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11    &trans  &trans  &trans  &kp RALT  &trans  &trans
-&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp F7  &kp F8  &kp F9  &kp F10    &trans  &trans  &trans  &trans    &trans  &trans
+&trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11    &trans  &trans  &trans  &kp LALT  &trans  &trans
+&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12    &trans  &trans  &trans  &trans    &trans  &trans
                         &trans  &trans  &trans     &trans  &trans  &trans
             >;
         };
