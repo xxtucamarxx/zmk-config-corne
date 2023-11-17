@@ -97,22 +97,22 @@
             bindings = <&kp BR_LEFT_PARENTHESIS>;
             key-positions = <19 18>;
             layers = <0>;
-            timeout-ms = <50>;
-            require-prior-idle-ms = <400>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <500>;
         };
 
         lbkt {
             bindings = <&kp BR_LEFT_BRACKET>;
             key-positions = <7 6>;
-            timeout-ms = <50>;
-            require-prior-idle-ms = <400>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <500>;
         };
 
         lbrc {
             bindings = <&kp BR_LEFT_BRACE>;
             key-positions = <31 30>;
-            timeout-ms = <50>;
-            require-prior-idle-ms = <400>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <500>;
         };
 
         rbrc {
