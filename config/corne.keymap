@@ -99,9 +99,9 @@
 
         default_colemak_layer {
             bindings = <
-&shift_caps          &kp Q            &kp W            &kp F         &kp P              &kp B          &kp J        &kp L               &kp U               &kp Y                  &kp BR_SEMI      &kp BR_SQT
-&mt BR_EXCL BR_PIPE  &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G          &kp M        &hmr RIGHT_SHIFT N  &hmr RCTRL E        &hmr RIGHT_ALT I       &hmr RIGHT_GUI O      &mt BR_EQUAL BR_MINUS
-&nav_smart_layers    &kp Z            &kp X            &kp C         &kp D              &kp V          &kp K        &kp H               &kp BR_COMMA  &kp BR_PERIOD  &kp BR_SLASH  &num_word
+&shift_caps          &kp Q            &kp W            &kp F         &kp P              &kp B          &kp J        &kp L               &kp U         &kp Y             &kp BR_SEMI          &kp BR_SQT
+&mt BR_EXCL BR_PIPE  &hml LEFT_GUI A  &hml LEFT_ALT R  &hml LCTRL S  &hml LEFT_SHIFT T  &kp G          &kp M        &hmr RIGHT_SHIFT N  &hmr RCTRL E  &hmr RIGHT_ALT I  &hmr RIGHT_GUI O     &mt BR_EQUAL BR_MINUS
+&nav_smart_layers    &kp Z            &kp X            &kp C         &kp D              &kp V          &kp K        &kp H               &kp BR_COMMA  &kp BR_PERIOD     &mt SLASH BACKSLASH  &num_word
                                                        &kp ESC       &lt 2 DELETE       &lt 3 ENTER    &lt 4 SPACE  &kp BACKSPACE       &lt 1 TAB
             >;
         };
@@ -119,8 +119,8 @@
             bindings = <
 &to 5       &kp C_REWIND      &kp C_FF      &kp K_REDO           &kp K_UNDO    &trans             &kp BR_AT    &kp BR_HASH  &kp BR_STAR  &kp BR_DLLR  &kp BR_AMPS  &trans
 &trans      &kp C_BRI_DN      &kp C_BRI_UP  &mt C_MUTE C_VOL_DN  &kp C_VOL_UP  &kp PRINTSCREEN    &kp BR_LBRC  &kp BR_LBKT  &kp BR_LPAR  &kp BR_RPAR  &kp BR_RBKT  &kp BR_RBRC
-&kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT    &kp K_PASTE          &kp K_COPY    &kp K_CUT          &trans    &trans    &trans    &trans    &trans    &trans
-                                            &trans               &trans        &trans             &trans    &trans    &trans
+&kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT    &kp K_PASTE          &kp K_COPY    &kp K_CUT          &trans       &trans       &trans       &trans       &trans       &trans
+                                            &trans               &trans        &trans             &trans       &trans       &trans
             >;
         };
 
