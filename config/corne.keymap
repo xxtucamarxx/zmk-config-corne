@@ -92,49 +92,6 @@
 
     combos {
         compatible = "zmk,combos";
-
-        lpar {
-            bindings = <&kp BR_LEFT_PARENTHESIS>;
-            key-positions = <19 20>;
-            layers = <0>;
-            timeout-ms = <100>;
-            require-prior-idle-ms = <400>;
-        };
-
-        lbkt {
-            bindings = <&kp BR_LEFT_BRACKET>;
-            key-positions = <7 8>;
-            timeout-ms = <100>;
-            require-prior-idle-ms = <400>;
-        };
-
-        lbrc {
-            bindings = <&kp BR_LEFT_BRACE>;
-            key-positions = <31 32>;
-            timeout-ms = <100>;
-            require-prior-idle-ms = <400>;
-        };
-
-        rbrc {
-            bindings = <&kp BR_RIGHT_BRACE>;
-            key-positions = <33 34>;
-            timeout-ms = <100>;
-            require-prior-idle-ms = <400>;
-        };
-
-        rbkt {
-            bindings = <&kp BR_RIGHT_BRACKET>;
-            key-positions = <9 10>;
-            timeout-ms = <100>;
-            require-prior-idle-ms = <400>;
-        };
-
-        rpar {
-            bindings = <&kp BR_RIGHT_PARENTHESIS>;
-            key-positions = <21 22>;
-            timeout-ms = <100>;
-            require-prior-idle-ms = <400>;
-        };
     };
 
     keymap {
@@ -151,28 +108,28 @@
 
         num_layer {
             bindings = <
-&none  &kp BR_ASTERISK  &kp N7  &kp N8         &kp N9  &kp BR_MINUS    &trans       &trans           &trans     &trans    &trans        &trans
-&none  &kp BR_SLASH        &kp N4  &kp N5         &kp N6  &kp BR_PLUS     &smart_func  &kp RIGHT_SHIFT  &kp LCTRL  &kp LALT  &kp LEFT_GUI  &trans
-&none  &kp BR_PERCENT      &kp N1  &kp N2         &kp N3  &kp BR_EQUAL    &trans       &trans           &trans     &trans    &trans        &to 0
+&none  &kp BR_ASTERISK  &kp N7  &kp N8               &kp N9  &kp BR_MINUS    &trans       &trans           &trans     &trans    &trans        &trans
+&none  &kp BR_SLASH     &kp N4  &kp N5               &kp N6  &kp BR_PLUS     &smart_func  &kp RIGHT_SHIFT  &kp LCTRL  &kp LALT  &kp LEFT_GUI  &trans
+&none  &kp BR_PERCENT   &kp N1  &kp N2               &kp N3  &kp BR_EQUAL    &trans       &trans           &trans     &trans    &trans        &to 0
                                 &mt BR_COMMA BR_DOT  &kp N0  &trans          &trans       &trans           &trans
             >;
         };
 
         media_layer {
             bindings = <
-&to 5       &kp C_REWIND      &kp C_FF      &kp K_REDO           &kp K_UNDO    &trans             &bt BT_PRV  &bt BT_NXT  &trans  &trans  &trans  &trans
-&trans      &kp C_BRI_DN      &kp C_BRI_UP  &mt C_MUTE C_VOL_DN  &kp C_VOL_UP  &kp PRINTSCREEN    &bt BT_CLR  &trans      &trans  &trans  &trans  &trans
-&kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT    &kp K_PASTE          &kp K_COPY    &kp K_CUT          &trans      &trans      &trans  &trans  &trans  &trans
-                                            &trans               &trans        &trans             &trans      &trans      &trans
+&to 5       &kp C_REWIND      &kp C_FF      &kp K_REDO           &kp K_UNDO    &trans             &kp AT    &kp HASH  &kp STAR  &kp DLLR  &kp AMPS  &trans
+&trans      &kp C_BRI_DN      &kp C_BRI_UP  &mt C_MUTE C_VOL_DN  &kp C_VOL_UP  &kp PRINTSCREEN    &kp LBRC  &kp LBKT  &kp LPAR  &kp RPAR  &kp RBKT  &kp RBRC
+&kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT    &kp K_PASTE          &kp K_COPY    &kp K_CUT          &trans    &trans    &trans    &trans    &trans    &trans
+                                            &trans               &trans        &trans             &trans    &trans    &trans
             >;
         };
 
         nav_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &none     &kp LA(LEFT)  &kp LS(LC(TAB))  &kp LC(TAB)  &kp LA(RIGHT)  &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT      &kp DOWN         &kp UP       &kp RIGHT      &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME      &kp PAGE_DOWN    &kp PAGE_UP  &kp END        &kp INSERT  &to 0
-                        &trans  &trans  &trans    &trans        &trans           &trans
+&trans  &trans  &trans  &trans  &bt BT_PRV  &bt BT_NXT    &kp LA(LEFT)  &kp LS(LC(TAB))  &kp LC(TAB)  &kp LA(RIGHT)  &trans      &trans
+&trans  &trans  &trans  &trans  &trans      &bt BT_CLR    &kp LEFT      &kp DOWN         &kp UP       &kp RIGHT      &trans      &trans
+&trans  &trans  &trans  &trans  &trans      &trans        &kp HOME      &kp PAGE_DOWN    &kp PAGE_UP  &kp END        &kp INSERT  &to 0
+                        &trans  &trans      &trans        &trans        &trans           &trans
             >;
         };
 
