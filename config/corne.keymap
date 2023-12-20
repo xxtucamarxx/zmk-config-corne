@@ -83,7 +83,7 @@
             compatible = "zmk,behavior-caps-word";
             label = "SMART_FUNC";
             #binding-cells = <0>;
-            layers = <7>;
+            layers = <6>;
             ignore-numbers;
             mods = <(MOD_LCTL|MOD_LSFT|MOD_LALT|MOD_RCTL|MOD_RSFT|MOD_LGUI|MOD_RALT|MOD_RGUI)>;
             continue-list = <F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12>;
