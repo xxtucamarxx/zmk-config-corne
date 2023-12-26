@@ -143,19 +143,19 @@
 
         gaming_layer {
             bindings = <
-&kp ESC  &kp TAB    &kp Q  &kp W  &kp E           &kp R        &kp N1        &kp N2        &kp N3      &kp N4       &kp N5       &kp PAGE_UP
-&kp J    &kp LSHFT  &kp A  &kp S  &kp D           &kp F        &kp N6        &kp N7        &kp N8      &kp N9       &kp N0       &kp PAGE_DOWN
-&kp M    &kp LCTRL  &kp Z  &kp X  &kp C           &kp V        &kp BR_MINUS  &kp BR_COMMA  &kp BR_DOT  &kp BR_SEMI  &kp BR_FSLH  &to 0
-                           &mo 7  &kp LEFT_SHIFT  &kp SPACE    &kp ENTER     &kp RALT      &kp ESC
+&kp ESC  &kp TAB       &kp Q  &kp W  &kp E           &kp R        &kp F1        &kp F2        &kp F3      &kp F4       &kp F5       &kp F6
+&kp J    &kp LCTRL     &kp A  &kp S  &kp D           &kp F        &kp F7        &kp F8        &kp F9      &kp F10      &kp F11      &kp F12
+&kp M    &kp LEFT_ALT  &kp Z  &kp X  &kp C           &kp V        &kp BR_MINUS  &kp BR_COMMA  &kp BR_DOT  &kp BR_SEMI  &kp BR_FSLH  &to 0
+                              &mo 7  &kp LEFT_SHIFT  &kp SPACE    &kp ENTER     &kp RALT      &kp ESC
             >;
         };
 
         gaming_layer2 {
             bindings = <
-&trans  &trans  &trans  &kp F   &kp P   &kp B     &trans   &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp N   &kp T   &kp G     &trans   &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp K   &kp H   &kp Y     &kp ESC  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans   &trans  &trans
+&kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6    &trans  &trans  &trans  &trans  &trans  &trans
+&kp T   &kp Y   &kp U   &kp I   &kp O   &kp P     &trans  &trans  &trans  &trans  &trans  &trans
+&kp G   &kp H   &kp J   &kp K   &kp L   &kp B     &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
